@@ -1,0 +1,58 @@
+.website-name {
+    font-family: Lucida Handwriting;
+    font-size: 50px;
+}
+
+.home-doc {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.headline1 {
+    font-size: 70px;
+
+}
+
+.headline2 {
+    font-size: 70px;
+    color: green;
+
+}
+
+.texts {
+    margin-left: 65px;
+    margin-right: 70px;
+    font-size: 25px;
+    font-weight: 400;
+    color: darkslategrey;
+}
+
+.button-header {
+    margin-top: 60px;
+    width: 130px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    background-color: crimson;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button-header:hover {
+    background-color: rgb(162, 0, 255);
+}
+
+.image {
+    height: 900px;
+    width: 600px;
+}
+
+.review-btn {
+    width: 400px;
+    height: 30px;
+    font-size: 20px;
+    background-color: blueviolet;
+    color: wheat;
+    margin-bottom: 100px;
+    border-radius: 5px;
+}
