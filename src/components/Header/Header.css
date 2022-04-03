@@ -1,0 +1,11 @@
+.header {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.header-text {
+    margin: 10px;
+    text-decoration: none;
+}
