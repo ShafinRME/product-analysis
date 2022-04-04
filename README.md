@@ -1,18 +1,14 @@
-# Product Analysis Website
+# Food Mania
 
-## [Private repo link](https://classroom.github.com/a/8blYLhL7)
-[https://classroom.github.com/a/8blYLhL7](https://classroom.github.com/a/8blYLhL7)
+## [Live Website Link](https://food-mania-assignment-9.netlify.app/)
+https://food-mania-assignment-9.netlify.app/
 
 
 
 --------------
-### Special Notes
-1. To install recharts run:
+### Summary of this Assignment
+* At first we make the Home page and some other components.
+* Then we add Route in Home page or in App.js File.
+* Then we made 4 types chart in Dashboard Part.
+* We also make some Reviews and Lastly we make a build file then deploy this file in Netlify.
 
-`npm install recharts --force`
-
-2. If you see the following warning, ignore it for now. 
-
-`Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot`
-
-3. For the dashboard, you can modify the data provided in `data.json` and you can load the data the way you want. 
