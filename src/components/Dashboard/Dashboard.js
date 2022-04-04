@@ -45,7 +45,9 @@ const Dashboard = () => {
     return (
         <div className='chart'>
             <div>
+                <h3 className='chart-head'>Sell vs Month</h3>
                 <LineChart width={600} height={500} data={data}>
+                    <CartesianGrid strokeDasharray="3 3" />
                     <Line dataKey={'sell'}></Line>
                     <XAxis dataKey={'month'}></XAxis>
                     <YAxis dataKey={'sell'}></YAxis>
@@ -55,6 +57,7 @@ const Dashboard = () => {
                 </LineChart>
             </div>
             <div>
+                <h3 className='chart-head'>Investment vs Month</h3>
                 <BarChart width={600} height={500} data={data}>
                     <CartesianGrid strokeDasharray="3 3" />
                     <Bar dataKey="investment" stackId="a" fill="red" />
@@ -69,6 +72,7 @@ const Dashboard = () => {
                 </BarChart>
             </div>
             <div>
+                <h3 className='chart-head'>Sell vs Revenue</h3>
                 <PieChart width={600} height={500}>
                     <Pie data={data} dataKey="sell" cx="50%" cy="50%" outerRadius={180} fill="#8884d8" />
                     <Pie data={data} dataKey="revenue" cx="50%" cy="50%" innerRadius={190} outerRadius={220} fill="#82ca9d" label />
@@ -76,6 +80,7 @@ const Dashboard = () => {
                 </PieChart>
             </div>
             <div>
+                <h3 className='chart-head'>Investment vs Month</h3>
                 <AreaChart width={600} height={500} data={data}>
                     <CartesianGrid strokeDasharray="3 3" />
                     <XAxis dataKey={"month"} />

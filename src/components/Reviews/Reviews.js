@@ -14,11 +14,11 @@ const Reviews = () => {
                     <div className='review-head'>
                         <div className='pic-name'>
                             <img src={rv.picture} alt="pic is not found" />
-                            <h2>{rv.name}</h2>
+                            <h4>{rv.name}</h4>
                         </div>
                         <div>
-                            <p>Comments: <br />{rv.reviews}</p>
-                            <p>Ratings:{rv.ratings}<FontAwesomeIcon icon={faStar} /></p>
+                            <p> <span className='comments'>Comments:</span>  <br />{rv.reviews}</p>
+                            <p className='ratings-head' ><span className='ratings'>Ratings: </span> <span className='ratings-star'>{rv.ratings} <FontAwesomeIcon icon={faStar} /></span>  </p>
 
                         </div>
 
