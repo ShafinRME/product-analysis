@@ -1,0 +1,28 @@
+.dude {
+    font-size: 60px;
+    font-family: Gabriola;
+    color: cornflowerblue;
+}
+
+.sorry {
+    font-size: 40px;
+    font-family: Ink Free;
+    color: firebrick;
+}
+
+.nothing {
+    font-size: 20px;
+    font-family: MV Boli;
+    color: rgb(10, 187, 10);
+}
+
+.pic {
+    width: 790px;
+    height: 480px;
+    transition: transform 4s;
+}
+
+.pic:hover {
+
+    transform: rotate(360deg);
+}
