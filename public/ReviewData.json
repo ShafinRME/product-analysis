@@ -3,36 +3,42 @@
         "id": "624ada2fe4dc7d17b2681421",
         "picture": "https://res.cloudinary.com/highereducation/image/upload/w_120,h_160,c_fill,f_auto,fl_lossy,q_auto/v1/TheBestSchools.org/alain-aspect.jpg",
         "name": "Alain Aspect",
-        "about": "oooo..This food is so much good.I want to eat it more."
+        "reviews": "oooo..This food is so much good.I want to eat it more.",
+        "ratings": "4"
     },
     {
         "id": "624ada2f2f62775af063c4b8",
         "picture": "https://res.cloudinary.com/highereducation/image/upload/w_125,h_175,c_fill,f_auto,fl_lossy,q_auto/v1/TheBestSchools.org/david-baltimore.jpg",
         "name": "David Baltimore",
-        "about": "Fantastic..Just i got fantastic feelings."
+        "reviews": "Fantastic..Just i got fantastic feelings.",
+        "ratings": "4.5"
     },
     {
         "id": "624ada2f927c4f0397b1ed5a",
         "picture": "https://res.cloudinary.com/highereducation/image/upload/w_160,h_165,c_fill,f_auto,fl_lossy,q_auto/v1/TheBestSchools.org/allan-j-bard.jpg",
         "name": "Allen J. Bard",
-        "about": "woowww..So nice soup it was....just Owwww..."
+        "reviews": "woowww..So nice soup it was....just Owwww...",
+        "ratings": "3"
     },
     {
         "id": "624ada2fad8182c7a22fc0e6",
         "picture": "https://res.cloudinary.com/highereducation/image/upload/w_130,h_175,c_fill,f_auto,fl_lossy,q_auto/v1/TheBestSchools.org/timothy-berners-lee.jpg",
         "name": "Timothy Berners-Lee",
-        "about": "I am so happy by eating this burger.I think it was a best barger i have ever eat."
+        "reviews": "I am so happy by eating this burger.I think it was a best barger i have ever eat.",
+        "ratings": "5"
     },
     {
         "id": "624ada2f51f24231aafc3298",
         "picture": "https://res.cloudinary.com/highereducation/image/upload/w_120,h_137,c_fill,f_auto,fl_lossy,q_auto/v1/TheBestSchools.org/john-tyler-bonner.jpg",
         "name": "John Tyler Bonner",
-        "about": "just chilll...It was just like a tasty things i have ever eat."
+        "reviews": "just chilll...It was just like a tasty things i have ever eat.",
+        "ratings": "4.99"
     },
     {
         "id": "624ada2f3bda5d03d87a0579",
         "picture": "https://res.cloudinary.com/highereducation/image/upload/w_130,h_170,c_fill,f_auto,fl_lossy,q_auto/v1/TheBestSchools.org/dennis-bray.jpg",
         "name": "Dennis Bray",
-        "about": "I say just one word. If you want to get best food for buy then you can try it."
+        "reviews": "I say just one word. If you want to get best food for buy then you can try it.",
+        "ratings": "5.00"
     }
 ]

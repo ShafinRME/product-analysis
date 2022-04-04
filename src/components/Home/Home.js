@@ -1,8 +1,15 @@
 import React from 'react';
 import "./Home.css"
 import pic from "../../food.jfif"
+import useLoadReviews from '../../hooks/fakeDataLoad';
+import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faStar } from '@fortawesome/free-solid-svg-icons'
 
 const Home = () => {
+    let [reviews, setReviews] = useLoadReviews();
+    // let newReviews = reviews.slice(0, 2);
+    // setReviews(newReviews);
     return (
         <div>
             <h2 className='website-name'>Food Mania</h2>
@@ -19,7 +26,24 @@ const Home = () => {
             </div>
             <div>
                 <h1>Customer Reviews(3)</h1>
-                <button className='review-btn'>See All Reviews</button>
+                {
+                    reviews.slice(0, 3).map(rvs =>
+                        <div className='review-head'>
+                            <div className='pic-name'>
+                                <img src={rvs.picture} alt="pic is not found" />
+                                <h2>{rvs.name}</h2>
+                            </div>
+                            <div>
+                                <p>Comments: <br />{rvs.reviews}</p>
+                                <p>Ratings:{rvs.ratings}<FontAwesomeIcon icon={faStar} /></p>
+
+                            </div>
+
+                        </div>
+                    )
+                }
+                <Link to="/reviews"><button className='review-btn'>See All Reviews</button></Link>
+
             </div>
         </div>
     );
