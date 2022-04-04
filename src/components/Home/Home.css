@@ -112,3 +112,40 @@
     font-weight: 500;
     color: coral;
 }
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 800px) {
+    .home-doc {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 20px;
+    }
+
+    .reviews-all1 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+
+    .review-head1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        border: 2px solid grey;
+        padding: 20px;
+        width: 500px;
+    }
+
+    .review-btn {
+        width: 400px;
+        height: 30px;
+        font-size: 20px;
+        background-color: blueviolet;
+        color: wheat;
+        margin-bottom: 100px;
+        border-radius: 5px;
+        margin-left: 110px;
+        margin-top: 50px;
+    }
+
+}

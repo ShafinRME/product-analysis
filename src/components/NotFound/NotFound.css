@@ -2,24 +2,29 @@
     font-size: 60px;
     font-family: Gabriola;
     color: cornflowerblue;
+    text-align: center;
 }
 
 .sorry {
     font-size: 40px;
     font-family: Ink Free;
     color: firebrick;
+    text-align: center;
 }
 
 .nothing {
     font-size: 20px;
     font-family: MV Boli;
     color: rgb(10, 187, 10);
+    text-align: center;
 }
 
 .pic {
     width: 790px;
     height: 480px;
     transition: transform 4s;
+
+    margin-left: 360px;
 }
 
 .pic:hover {
